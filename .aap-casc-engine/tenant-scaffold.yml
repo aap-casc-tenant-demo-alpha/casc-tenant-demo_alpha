@@ -1,0 +1,11 @@
+# Engine-owned lifecycle marker. Do not edit tenant identity fields in place;
+# use the documented tenant identity/repository migration procedure instead.
+aap_organization: demo_alpha
+onboarding_mode: greenfield
+repo_mode: create
+repo_visibility: private
+repository: casc-tenant-demo_alpha
+scaffold_version: 4
+team_name: Alpha DevOps
+tenant_id: demo_alpha
+tenant_scm_org: aap-casc-tenant-demo-alpha
