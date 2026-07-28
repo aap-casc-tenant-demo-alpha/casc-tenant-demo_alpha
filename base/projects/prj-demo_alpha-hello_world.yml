@@ -1,0 +1,12 @@
+---
+controller_projects:
+  - name: prj-demo_alpha-hello_world
+    description: "Hello World project for tenant Alpha — demo automation content"
+    scm_type: git
+    scm_url: https://github.com/ansible/ansible-tower-samples.git
+    scm_branch: master
+    default_environment: "Default execution environment"
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_update_on_launch: true
+    organization: demo_alpha

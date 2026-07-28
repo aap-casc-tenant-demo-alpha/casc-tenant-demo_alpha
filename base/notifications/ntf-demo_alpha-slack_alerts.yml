@@ -1,0 +1,10 @@
+---
+controller_notifications:
+  - name: ntf-demo_alpha-slack_alerts
+    description: "Slack alerts notification for tenant Alpha"
+    organization: demo_alpha
+    notification_type: slack
+    notification_configuration:
+      channels:
+        - "#aap-demo-alpha"
+      token: placeholder-slack-token
