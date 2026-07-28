@@ -1,0 +1,12 @@
+---
+controller_workflows:
+  - name: wfjt-demo_alpha-deploy_pipeline
+    description: "Deploy pipeline workflow for tenant Alpha"
+    organization: demo_alpha
+    simplified_workflow_nodes:
+      - identifier: node-hello
+        unified_job_template: jt-demo_alpha-hello_world
+        success_nodes: []
+        failure_nodes: []
+        always_nodes: []
+    ask_variables_on_launch: false
